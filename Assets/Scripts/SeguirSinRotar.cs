@@ -22,6 +22,9 @@ public class SeguirSinRotar : MonoBehaviour
 
     private void LateUpdate()
     {
-        transform.position = Jugador.transform.position + distancia;
+        if (Jugador != null)
+        {
+            transform.position = Jugador.transform.position + distancia;
+        }
     }
 }

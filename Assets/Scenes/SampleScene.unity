@@ -442,6 +442,7 @@ GameObject:
   - component: {fileID: 1428750989}
   - component: {fileID: 1428750993}
   - component: {fileID: 1428750994}
+  - component: {fileID: 1428750995}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Untagged
@@ -581,6 +582,19 @@ MonoBehaviour:
   FuerzaDerecha: {fileID: 2128256825}
   PotenciaDirecta: 40
   PotenciaLateral: 20
+--- !u!114 &1428750995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428750988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6b83de766b28c4ca6d9661bc9827ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestruirSiYMenor: -1
 --- !u!1001 &1453845965
 PrefabInstance:
   m_ObjectHideFlags: 0
