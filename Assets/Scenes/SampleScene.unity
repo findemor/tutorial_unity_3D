@@ -581,6 +581,63 @@ MonoBehaviour:
   FuerzaDerecha: {fileID: 2128256825}
   PotenciaDirecta: 40
   PotenciaLateral: 20
+--- !u!1001 &1453845965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7828711551455634921, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_Name
+      value: Pista2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f930f90aff3a99d499732f60578c9276, type: 3}
 --- !u!1 &2128256824
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,9 +677,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2774063959313664346, guid: f930f90aff3a99d499732f60578c9276, type: 3}
+      propertyPath: Velocidad
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7828711551455634921, guid: f930f90aff3a99d499732f60578c9276, type: 3}
       propertyPath: m_Name
-      value: Pista
+      value: Pista1
       objectReference: {fileID: 0}
     - target: {fileID: 8276211336663638843, guid: f930f90aff3a99d499732f60578c9276, type: 3}
       propertyPath: m_LocalPosition.x
@@ -676,6 +737,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 963194228}
   - {fileID: 705507995}
-  - {fileID: 4991920884993860696}
   - {fileID: 1428750992}
   - {fileID: 2843732}
+  - {fileID: 4991920884993860696}
+  - {fileID: 1453845965}
