@@ -229,8 +229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e55440ddf1eeb3c48866380b29ccb77c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocidad: 1
-  DistanciaMaxima: 3
+  Velocidad: 2
+  DistanciaMaxima: 5
 --- !u!114 &2554692030040832952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PosicionJugador: {fileID: 0}
-  DistanciaMaxima: 80
+  DistanciaMaxima: 8000
 --- !u!1001 &960988913110273266
 PrefabInstance:
   m_ObjectHideFlags: 0
