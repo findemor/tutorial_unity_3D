@@ -27,6 +27,7 @@ public class CrearSiguientePista : MonoBehaviour
         if (other.gameObject.name == "Jugador")
         {
             Debug.Log("Jugador ha entrado en el trigger");
+            PistaPadre.GetComponent<MoverPista>().Detener();
             Instantiate(PrefabPista, SiguientePosicion, Quaternion.identity);
         }
     }

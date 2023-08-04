@@ -9,12 +9,36 @@ public class MoverPista : MonoBehaviour
     public float Velocidad = 0.2f;
     public int DistanciaMaxima = 3;
 
+    public GameObject SpacebarSprite;
+    public ParticleSystem PSDetener;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        Mover = true;
+        if (Velocidad > 0f)
+        {
+            Mover = true;
+        } else
+        {
+            Mover = false;
+        }
+
         PosicionInicial = transform.position;
+        SpacebarSprite.SetActive(true);
+
     }
+
+    public void Detener()
+    {
+        if (Mover)
+        {
+            Mover = false;
+            SpacebarSprite.SetActive(false);
+            PSDetener.Play();
+        }
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -31,8 +55,9 @@ public class MoverPista : MonoBehaviour
             //movemos
             transform.position = transform.position + Vector3.forward * Velocidad * Time.deltaTime;
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Mover && Input.GetKeyDown(KeyCode.Space))
             {
+                Detener();
                 Mover = false;
             }
 

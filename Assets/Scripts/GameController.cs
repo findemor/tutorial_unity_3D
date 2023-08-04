@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     private bool EstaCorriendo = false;
 
     public UIManager UI;
+    public ParticleSystem PSPuntos;
 
     private float tiempoTranscurrido = 0f;
 
@@ -38,6 +39,7 @@ public class GameController : MonoBehaviour
         BolosTirados = BolosTirados + 1;
 
         UI.ActualizarTextoBolos(BolosTirados);
+        PSPuntos.Play();
 
         CalcularPuntuacion();
     }
